@@ -16,6 +16,7 @@
 		3055E3B023B86AD9008B9E52 /* SocialLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3055E3AF23B86AD9008B9E52 /* SocialLoginTests.swift */; };
 		3055E3BB23B86AD9008B9E52 /* SocialLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3055E3BA23B86AD9008B9E52 /* SocialLoginUITests.swift */; };
 		3055E3C923B879C9008B9E52 /* client_781751498270-1vjap95370dgqvbt1bf6hi1o9kng8et8.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3055E3C823B879C9008B9E52 /* client_781751498270-1vjap95370dgqvbt1bf6hi1o9kng8et8.apps.googleusercontent.com.plist */; };
+		3055E3CD23B87EB3008B9E52 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3055E3CC23B87EB3008B9E52 /* User.swift */; };
 		CD57BBD5E6B1411BDA6FC471 /* Pods_SocialLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4A2794DCC3CCD6AF480F31 /* Pods_SocialLogin.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		3055E3BA23B86AD9008B9E52 /* SocialLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLoginUITests.swift; sourceTree = "<group>"; };
 		3055E3BC23B86AD9008B9E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3055E3C823B879C9008B9E52 /* client_781751498270-1vjap95370dgqvbt1bf6hi1o9kng8et8.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_781751498270-1vjap95370dgqvbt1bf6hi1o9kng8et8.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
+		3055E3CC23B87EB3008B9E52 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3D4A2794DCC3CCD6AF480F31 /* Pods_SocialLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8279F05D55B622CDBA70AD25 /* Pods-SocialLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLogin.debug.xcconfig"; path = "Target Support Files/Pods-SocialLogin/Pods-SocialLogin.debug.xcconfig"; sourceTree = "<group>"; };
 		887742D3E6BA835054728A9D /* Pods-SocialLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLogin.release.xcconfig"; path = "Target Support Files/Pods-SocialLogin/Pods-SocialLogin.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				3055E3A123B86AD9008B9E52 /* Assets.xcassets */,
 				3055E3A323B86AD9008B9E52 /* LaunchScreen.storyboard */,
 				3055E3A623B86AD9008B9E52 /* Info.plist */,
+				3055E3CC23B87EB3008B9E52 /* User.swift */,
 			);
 			path = SocialLogin;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3055E3CD23B87EB3008B9E52 /* User.swift in Sources */,
 				3055E39D23B86AD7008B9E52 /* ViewController.swift in Sources */,
 				3055E39923B86AD7008B9E52 /* AppDelegate.swift in Sources */,
 				3055E39B23B86AD7008B9E52 /* SceneDelegate.swift in Sources */,
