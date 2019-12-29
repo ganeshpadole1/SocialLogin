@@ -10,33 +10,9 @@ import UIKit
 import GoogleSignIn
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate {
     
-    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
-        if let error = error {
-            if (error as NSError).code == GIDSignInErrorCode.hasNoAuthInKeychain.rawValue {
-                print("The user has not signed in before or they have since signed out.")
-            } else {
-                print("\(error.localizedDescription)")
-            }
-            return
-        }
-        print(user.profile.hasImage)
-        // Perform any operations on signed in user here.
-        let userId = user.userID                  // For client-side use only!
-        let idToken = user.authentication.idToken // Safe to send to the server
-        let fullName = user.profile.name
-        let givenName = user.profile.givenName
-        let familyName = user.profile.familyName
-        let email = user.profile.email
-        
-        print(userId ?? 0)
-        print(idToken as Any)
-        print(fullName as Any)
-        print(givenName as Any)
-        print(familyName as Any)
-        print(email as Any)
-    }
+   
     
     func sign(_ signIn: GIDSignIn!, didDisconnectWith user: GIDGoogleUser!,
               withError error: Error!) {
@@ -49,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         
         // Initialize sign-in
         GIDSignIn.sharedInstance().clientID = "781751498270-1vjap95370dgqvbt1bf6hi1o9kng8et8.apps.googleusercontent.com"
-        GIDSignIn.sharedInstance().delegate = self
+       //
         
         return true
     }
